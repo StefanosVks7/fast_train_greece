@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Hardware Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+
+    <nav class="navbar">
+        <div class="logo">
+            better<span>PC</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#formats">Formats</a>
+            <a href="#ram">RAM</a>
+            <a href="#storage">Storage</a>
+            <a href="#cpu">CPU</a>
+            <a href="#gpu">GPU</a>
+        </div>
+
+        <a class="build-btn" href="#">
+            Build Your PC
+        </a>
+    </nav>
+
+    <div class="hero-content">
+
+        <div class="hero-left">
+            <h1>
+                better<span>PC</span>
+            </h1>
+
+            <h2>
+                BUILD BETTER. BE BETTER.
+            </h2>
+
+            <p>
+                Everything you need to know about PC hardware.
+                Explore. Compare. Build. Win.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="primary-btn">
+                    Explore Hardware
+                </button>
+
+                <button class="secondary-btn">
+                    Build Your PC
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img
+                src="images/hero-pc.webp"
+                alt="Gaming PC">
+        </div>
+
+    </div>
+
+</header>
+
+<nav>
+    <a href="#formats">Formats</a>
+    <a href="#ram">RAM</a>
+    <a href="#storage">Storage</a>
+    <a href="#cpu">CPU</a>
+</nav>
+
+<section id="hero">
+    <h2>Build Better PCs</h2>
+    <p>Everything about computer components in one place.</p>
+</section>
+
+<section id="formats" class="card">
+    <h2>Motherboard Formats</h2>
+    <div class="grid">
+        <div><h3>ATX</h3><p>Standard gaming and workstation size.</p></div>
+        <div><h3>Micro-ATX</h3><p>Smaller and affordable.</p></div>
+        <div><h3>Mini-ITX</h3><p>Compact systems and small builds.</p></div>
+    </div>
+</section>
+
+<section id="ram" class="card">
+    <h2>RAM Generations</h2>
+    <div class="grid">
+        <div><h3>DDR4</h3><p>Still popular and affordable.</p></div>
+        <div><h3>DDR5</h3><p>Higher speed and bandwidth.</p></div>
+    </div>
+</section>
+
+<section id="storage" class="card">
+    <h2>Storage</h2>
+    <div class="grid">
+        <div><h3>SATA SSD</h3></div>
+        <div><h3>NVMe SSD</h3></div>
+        <div><h3>Hard Drives</h3></div>
+    </div>
+</section>
+
+<section id="cpu" class="card">
+    <h2>Processors</h2>
+    <p>Compare cores, clocks and architectures.</p>
+    <button onclick="showTip()">Build Tip</button>
+    <p id="tip"></p>
+</section>
+
+<footer>
+    PC Hardware Hub © 2026
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
